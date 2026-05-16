@@ -72,34 +72,25 @@ password: 123
 ## Screenshots
 
 ### Login Screen
-
-![Flutter Login](docs/images/flutter-login.jpg)
+<img src="docs/images/flutter-login.jpg" width="250">
 
 ### Home Screen
-
-![Flutter Home](docs/images/flutter-home.jpg)
+<img src="docs/images/flutter-home.jpg" width="250">
 
 ### Employee List
-
-![Employee List](docs/images/flutter-employee-list.jpg)
+<img src="docs/images/flutter-employee-list.jpg" width="250">
 
 ### Employee Form
-
-![Employee Form](docs/images/flutter-employee-form.jpg)
+<img src="docs/images/flutter-employee-form.jpg" width="250">
 
 ### Department List
-
-![Department List](docs/images/flutter-department-list.jpg)
+<img src="docs/images/flutter-department-list.jpg" width="250">
 
 ### API Response
-
-![API Response](docs/images/flutter-employee-api.jpg)
+<img src="docs/images/flutter-employee-api.jpg" width="250">
 
 ### APK Release
-
-![APK Release](docs/images/apk-release.jpg)
-
----
+<img src="docs/images/apk-release.jpg" width="250">
 
 ## System Architecture
 
