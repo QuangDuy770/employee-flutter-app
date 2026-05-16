@@ -1,17 +1,136 @@
-# employee_app
+# Employee Management Flutter App
 
-A new Flutter project.
+Ứng dụng Flutter quản lý nhân viên và phòng ban, kết nối với Yii2 REST API được deploy trên Render và sử dụng MySQL cloud Aiven.
 
-## Getting Started
+## Backend API
 
-This project is a starting point for a Flutter application.
+```txt
+https://yii2-flutter-employee.onrender.com
+```
 
-A few resources to get you started if this is your first Flutter project:
+## Test Account
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+### Admin
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```txt
+username: admin
+password: 123
+```
+
+### User
+
+```txt
+username: user
+password: 123
+```
+
+## Tech Stack
+
+- Flutter
+- Dart
+- REST API
+- HTTP package
+- Yii2 Backend API
+- Render
+- Aiven MySQL
+
+## Main Features
+
+### Authentication
+
+- Login with username and password
+- Logout
+
+### Employee Management
+
+- View employee list
+- Create employee
+- Update employee
+- Delete employee
+- Select department
+- Select hire date with DatePicker
+- Employee status management
+
+### Department Management
+
+- View department list
+- Create department
+- Update department
+- Delete department
+- Department status management
+
+### Validation
+
+- Required fields validation
+- Email format validation
+- Phone number validation
+- Salary validation
+- Date validation
+
+## System Architecture
+
+```txt
+Flutter Mobile App
+        ↓
+Yii2 REST API on Render
+        ↓
+Aiven MySQL Cloud Database
+```
+
+## API Base URL
+
+```dart
+static const String baseUrl = 'https://yii2-flutter-employee.onrender.com';
+```
+
+## Required Android Permission
+
+```xml
+<uses-permission android:name="android.permission.INTERNET" />
+```
+
+## Run Project
+
+```bash
+flutter clean
+flutter pub get
+flutter run
+```
+
+## Build APK
+
+```bash
+flutter build apk --release
+```
+
+APK output:
+
+```txt
+build/app/outputs/flutter-apk/app-release.apk
+```
+
+## Release APK
+
+APK release can be uploaded in GitHub Releases.
+
+Suggested tag:
+
+```txt
+v1.0.0
+```
+
+## Notes
+
+Because the backend uses free cloud services, the first request may take a few seconds if Render or Aiven is sleeping.
+
+## Related Backend Repository
+
+```txt
+https://github.com/QuangDuy770/yii2-flutter-employee
+```
+
+## Author
+
+Phạm Quang Duy
+
+GitHub: https://github.com/QuangDuy770
