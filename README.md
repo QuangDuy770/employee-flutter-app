@@ -84,7 +84,7 @@ password: 123
 <img src="docs/images/flutter-employee-form.jpg" width="250">
 
 ### Department List
-<img src="docs/images/flutter-department-list.jpg" width="250">
+<img src="docs/images/flutter-department-lis.jpg" width="250">
 
 ### API Response
 <img src="docs/images/flutter-employee-api.jpg" width="250">
