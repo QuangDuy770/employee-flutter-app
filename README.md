@@ -67,6 +67,40 @@ password: 123
 - Salary validation
 - Date validation
 
+- ---
+
+## Screenshots
+
+### Login Screen
+
+![Flutter Login](docs/images/flutter-login.jpg)
+
+### Home Screen
+
+![Flutter Home](docs/images/flutter-home.jpg)
+
+### Employee List
+
+![Employee List](docs/images/flutter-employee-list.jpg)
+
+### Employee Form
+
+![Employee Form](docs/images/flutter-employee-form.jpg)
+
+### Department List
+
+![Department List](docs/images/flutter-department-list.jpg)
+
+### API Response
+
+![API Response](docs/images/flutter-employee-api.jpg)
+
+### APK Release
+
+![APK Release](docs/images/apk-release.jpg)
+
+---
+
 ## System Architecture
 
 ```txt
