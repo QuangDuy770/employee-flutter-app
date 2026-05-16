@@ -30,7 +30,6 @@ password: 123
 - Dart
 - REST API
 - HTTP package
-- Shared Preferences
 - Yii2 Backend API
 - Render
 - Aiven MySQL
@@ -40,7 +39,6 @@ password: 123
 ### Authentication
 
 - Login with username and password
-- Save login session using Shared Preferences
 - Logout
 
 ### Employee Management
